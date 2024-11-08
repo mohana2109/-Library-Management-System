@@ -65,4 +65,5 @@ The Library Management System is a console-based Java application designed to ma
 
 ## Usage
 **User Access**: Users can register, log in, view available books, purchase, and return books.
+
 **Admin Access**: Admins log in with a predefined password to access additional management features.
