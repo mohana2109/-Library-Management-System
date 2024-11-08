@@ -1,13 +1,12 @@
 
 Library Management System
 
-
-
 The Library Management System is a console-based Java application designed to manage books in a library, handle user registrations, allow users to purchase and return books, and maintain transaction history. The system uses MySQL as the relational database to store details about books, users, and transactions.
 
 
 ## Features
 - **User Registration & Login**: Automatically generates a user ID when a new user registers.
+- **Admin Module**: Allows administrators to add new books, view user details, and track users who have purchased books.
 - **Book Management**: Users can view available books, purchase books, add new books, and return borrowed books.
 - **Transaction Logging**: The system logs transactions whenever a book is purchased or returned.
 - **Database Integration**: Book and user information are stored in a MySQL database.
@@ -63,3 +62,7 @@ The Library Management System is a console-based Java application designed to ma
    ('The Hobbit', 'J.R.R. Tolkien', 3),
    ('1984', 'George Orwell', 0),
    ('The Catcher in the Rye', 'J.D. Salinger', 2);
+
+## Usage
+**User Access**: Users can register, log in, view available books, purchase, and return books.
+**Admin Access**: Admins log in with a predefined password to access additional management features.
